@@ -5,6 +5,7 @@ Welcome to my portfolio website! This website showcases my skills as a Software 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Screenshot](#screenshot)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [License](#license)
@@ -24,7 +25,14 @@ This website serves as my online portfolio, allowing visitors to learn more abou
 - **Projects:** Browse my recent projects and see the technologies I've worked with.
 
 - **Contact:** Get in touch with me through the provided contact form.
+  
 
+## Screenshot
+
+![image](https://github.com/OhmonCapitaine/Test-portfolio/assets/112229127/bd3ebe60-0c7e-4c3d-9c8c-d23d13d39c1b)
+![image](https://github.com/OhmonCapitaine/Test-portfolio/assets/112229127/5996d621-d1d4-41e8-8de4-316f7c321800)
+![image](https://github.com/OhmonCapitaine/Test-portfolio/assets/112229127/a1fa1565-aa2d-402f-968b-d0ded15206ab)
+![image](https://github.com/OhmonCapitaine/Test-portfolio/assets/112229127/d8734275-4150-4f00-9680-123d371863d2)
 
 
 ## Technologies Used
