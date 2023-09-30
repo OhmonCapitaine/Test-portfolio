@@ -41,7 +41,7 @@ To access the live version of this website, visit [My Portfolio Website](.......
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [[LICENSE.md](LICENSE.md](https://github.com/OhmonCapitaine/Test-portfolio/blob/main/MIT%20LICENCE)) file for details.
 This "Read Me" section provides an overview of your portfolio website, its features, how to access it online, the technologies used, and licensing information. You can include this in your GitHub repository to provide clear documentation for users and collaborators.
 
 
