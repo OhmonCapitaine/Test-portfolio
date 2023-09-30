@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueery.css">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Hanane Abdelmadjid</div>
+        <div>
+            <ul class="nav-links">
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#experience">Experience</a></li>
+            <li> <a href="#projets">Projets</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Hanane Abdelmadjid</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+         <div class="menu-links">
+            <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+            <li> <a href="#experience"onclick="toggleMenu()">Experience</a></li>
+            <li> <a href="#projets"onclick="toggleMenu()">Projets</a></li>
+            <li> <a href="#contact"onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+   </nav>
+   <section id="profile">
+   <div class="section__pic-container">
+     <img src="./Assets/profile-pic.png" alt="Hanane-abdelmadjid profile picture"/>
+    </div>
+   <div class="section__text">
+     <p class="section__text__p1">Hello, i'm </p>
+    <h1 class="title">Hanane</h1>
+    <p class="section__text__p2">Software Developer</p>
+  <div class="btn-container">
+    <button 
+       class="btn btn-color-2" 
+       onclick="window.open('./Assets/resume-Hanane.pdf')">Resume</button>
+    <button 
+       class="btn btn-color-1" 
+       onclick="location.href='./#contact'">Contact</button>
+</div>
+<div id="socials-container">
+    <img 
+       src="./Assets/linkedin.png" 
+       alt="My Linkedin profil" 
+       class="icon"
+       onclick="location.href='http://www.linkedin.com/in/hanane-abdelmadjid'"/> 
+    <img 
+       src="./Assets/github.png" 
+       alt="My Github profil" 
+       class="icon"
+       onclick="location.href='https://github.com/OhmonCapitaine'"/> 
+        
+    </div>
+</div>
+</section>
+<section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img
+             src="./Assets/about_1.png"
+             alt="Profile picture"
+             class="about-pic"
+             />
+        </div>
+        <div class="about-details-container">
+         <div class="about-containers">
+           <div class="details-container">
+            <img
+            src="./Assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+            />
+            <h3>Experience</h3>
+            <p>2+ years <br/>Software Developement</p>
+           </div>
+
+           <div class="details-container">
+            <img
+            src="./Assets/education.png"
+            alt="Education icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>M.Sc.Master <br/>B.Sc. Bachelors Degree <br/>Computer Programming Diploma</p>
+        </div> 
+        </div>
+
+         <div class="text-container">
+            <p>
+                Committed to the pursuit of excellence and creativity, I explore web development, from back-end to front-end, crafting a digital universe in constant evolution. Welcome to my world of perpetual transformation!</p>
+         </div>
+         </div>
+         <img
+         src="Assets/arrow.png" 
+         alt="Arrow icon"
+         class="icon arrow"
+         onclick="location.href='./#experience'"
+         />
+</section>
+
+<section id="experience">
+    <p class="section__text__p1">Explore my</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developement</h2>
+            <div class="article-container">
+            <article>
+              <img
+              src="./Assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+            <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Java Script</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>SAAS</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+        </div>
+    </div>
+</div>
+        <div class="experience-details-container2">
+            <div class="about-containers">
+        <div class="details-container">
+            <h2 class="experience-sub-title">Backend Developement</h2>
+            <div class="article-container">
+            <article>
+              <img
+              src="./Assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+              />
+              <div>
+                <h3>Java</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+            <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./Assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <P>Experienced</P>
+                </div>
+              </article>
+    </div>
+    <img
+         src="Assets/arrow.png" 
+         alt="Arrow icon"
+         class="icon arrow"
+         onclick="location.href='./#projets'"
+         />
+</section>
+
+<section id="projets">
+  <div class="">  
+    <p class="section__text__p1">Browse my Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./Assets/project-1.png"
+            alt="project 1"
+            class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title" >Application </h2>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/OhmonCapitaine'"/> Github 
+            </button> 
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/OhmonCapitaine'"/> Demo 
+            </button> 
+          </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <img
+      src="Assets/arrow.png" 
+      alt="Arrow icon"
+      class="icon arrow2"
+      onclick="location.href='./#contact'"
+      />
+    </section>
+
+<section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact me</h1>
+
+
+
+
+
+</section>
+
+
+<footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+           <li> <a href="#about">About</a></li>
+           <li> <a href="#experience">Experience</a></li>
+           <li> <a href="#projets">Projets</a></li>
+           <li> <a href="#contact">Contact</a></li>
+        </ul>  
+      </div>
+    </nav>
+    <p>Copyright© 2023 Hanane Abdelmadjid. All rights Reserved</p>
+</footer>
+   <script src="script.js"></script>
+   
+</body>
+</html>
